@@ -1,15 +1,13 @@
 # ALX Low-Level Programming Project
 
-This is a project for the ALX low-level programming course. The project focuses on [insert project focus/description]. 
+This is a project for the ALX low-level programming course.
 
 ## Table of Contents
 
-- [0x02. C - Functions, nested loops](#0x02. C - Functions, nested loops)
-- [0x03. C - Debugging] (#0x03. C - Debugging)
-- [Usage](#usage)
-- [Contributing](#contributing)
+- [loops](#loops)
+- [debugging] (#Debugging)
 
-##0x02. C - Functions, nested loops
+##loops
 Learning Objectives
 
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
@@ -39,7 +37,7 @@ General
     In the following examples, the main.c files are shown as examples. You can use them to test your functions, but you don’t have to push them to your repo (if you do we won’t take them into account). We will use our own main.c files at compilation. Our main.c files might be different from the one shown in the examples
     The prototypes of all your functions and the prototype of the function _putchar should be included in your header file called main.h
     Don’t forget to push your header file
-##0x03. C - Debugging
+##Debugging
 Learning Objectives
 
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
