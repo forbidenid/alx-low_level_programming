@@ -5,7 +5,7 @@ This is a project for the ALX low-level programming course.
 ## Table of Contents
 
 - [loops](#loops)
-- [debugging] (#Debugging)
+- [Debugging] (#Debugging)
 
 ##loops
 Learning Objectives
