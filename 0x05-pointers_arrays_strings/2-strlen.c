@@ -4,7 +4,7 @@
  * @s: check char
  * Return: 0 Success
  */
-void _strlen(char *s)
+int _strlen(char *s)
 {
 	int a = 0;
 
