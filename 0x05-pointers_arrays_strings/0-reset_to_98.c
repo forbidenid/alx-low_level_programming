@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * reset_to_98 takes the pointer as paremeter and updates it
+ * reset_to_98 - takes the pointer as paremeter and updates it
  * @n: int to check
  * Return: 0 is success
  */
