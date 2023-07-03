@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _memcpy - function that copies n bytes from a source to a destination.
+ * _memcpy - fuction that copies n bytes from a source to a destination.
  * @dest: destionation for the copying the bytes to.
  * @src: source of the bytes to copy.
  * @n: number of bytes to copy over.
@@ -20,4 +20,6 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 		i++;
 	}
 	return (dest);
+}
+
 
