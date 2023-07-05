@@ -14,10 +14,12 @@ int count_string(char *s);
 int is_plaindrome(char *s)
 {
 	int count;
+
 	count = 0;
 	if (!(*s))
 		return (1);
 	count = count_string(s);
+	return (find_pal(s, 0, count - 1));
 }
 /**
  * find_pal - helper for is_plaindrome
