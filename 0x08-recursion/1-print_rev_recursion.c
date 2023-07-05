@@ -5,7 +5,7 @@
  * @s: string to print in reverse
  * Return: void
  */
-void _ptint_rev_recursion(char *s)
+void _print_rev_recursion(char *s)
 {
 	if (!*s)
 		return;
