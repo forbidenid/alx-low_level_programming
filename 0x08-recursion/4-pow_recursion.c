@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * _pow_recursion - function that returns the value of x raiset to the power of y
+ * _pow_recursion - function that returns the 
+ * value of x raises to the power of y
  * @x: value to be manipulated
  * @s: the value manipulator
  * Return: Sun INT
