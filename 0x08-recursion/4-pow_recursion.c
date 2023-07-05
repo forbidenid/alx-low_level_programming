@@ -5,8 +5,7 @@
  * value of x raises to the power of y
  * @x: value to be manipulated
  * @s: the value manipulator
- * Return: Sun INT
- * root-codes
+ * Return: Sum as Int
  */
 int _pow_recursion(int x, int y)
 {
