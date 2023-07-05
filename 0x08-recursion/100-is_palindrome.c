@@ -5,10 +5,10 @@ int find_pal(char *s, int f_i, int b_i);
 int count_string(char *s);
 
 /**
- * is_plaindrome - checks if a string is plaindrome
+ * is_palinndrome - checks if a string is palindrome
  * @s: check string
  * root-codes
- * Return: 1 is plaindrome 0 not
+ * Return: 1 is palindrome 0 not
  */
 
 int is_palindrome(char *s)
@@ -22,12 +22,12 @@ int is_palindrome(char *s)
 	return (find_pal(s, 0, count - 1));
 }
 /**
- * find_pal - helper for is_plaindrome
+ * find_pal - helper for is_palindrome
  * @s: string to check
  * @f_i: front index
  * @b_i: back index
  * root-codes
- * Return: 1 plaindrome 0 not
+ * Return: 1 palindrome 0 not
  */
 
 int find_pal(char *s, int f_i, int b_i)
