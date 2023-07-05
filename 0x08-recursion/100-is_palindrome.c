@@ -30,7 +30,7 @@ int is_plaindrome(char *s)
 
 int find_pal(char *s, int f_i, int b_i)
 {
-	if (s[f_1] != s[b_i])
+	if (s[f_i] != s[b_i])
 		return (0);
 	if (s[f_i] == s[b_i] && f_i == b_i)
 		return (1);
