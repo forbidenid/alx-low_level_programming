@@ -11,7 +11,7 @@ int count_string(char *s);
  * Return: 1 is plaindrome 0 not
  */
 
-int is_plaindrome(char *s)
+int is_palindrome(char *s)
 {
 	int count;
 
