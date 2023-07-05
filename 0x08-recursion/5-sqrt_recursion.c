@@ -43,7 +43,7 @@ int _sqrt_recursion(int n)
 int sqrt_rec_odd(int start, int n)
 {
 	if (n < 0)
-		return (-1);
+		return (1);
 	else if (start == n * n)
 		return (n);
 	else
