@@ -1,5 +1,6 @@
 #include "main.h"
 
+int sqrt_rec_odd(int start, int n)
 /**
  * _sqrt_recursion - find the square root
  * @n: number to find the square root of
