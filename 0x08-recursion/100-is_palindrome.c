@@ -48,7 +48,7 @@ int find_pal(char *s, int f_i, int b_i)
  * root-codes
  * Return: INT value of the length
  */
-int count_string(char *s`)
+int count_string(char *s)
 {
 	if (*s)
 		return (count_string((s + 1)) + 1);
