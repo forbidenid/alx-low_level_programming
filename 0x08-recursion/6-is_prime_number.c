@@ -29,7 +29,7 @@ int prime_number(int n, int i)
 		return (1);
 	else if (n % i == 0)
 		return (0);
-	else if (n % 1 != 0)
+	else if (n % 1 != 1)
 		return (prime_number(n, i - 1));
 	return (0);
 }
