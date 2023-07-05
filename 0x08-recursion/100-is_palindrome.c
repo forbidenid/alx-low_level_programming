@@ -5,7 +5,7 @@ int find_pal(char *s, int f_i, int b_i);
 int count_string(char *s);
 
 /**
- * is_palinndrome - checks if a string is palindrome
+ * is_palindrome - checks if a string is palindrome
  * @s: check string
  * root-codes
  * Return: 1 is palindrome 0 not
