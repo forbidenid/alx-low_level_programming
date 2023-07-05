@@ -3,8 +3,8 @@
 /**
  * _pow_recursion - function that returns the value of x
  * raised to the power of y
- * @x: value to be manipulated
- * @s: manipulator
+ * @x: The base number
+ * @y: The exponent
  * root-codes
  * Return: Sum as Int
  */
