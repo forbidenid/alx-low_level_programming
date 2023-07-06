@@ -29,5 +29,5 @@ int str_checker(char *s1, char *s2, int i, int j)
  */
 int wildcmp(char *s1, char *s2)
 {
-	return (str_checker(s1, s2, 1, 1));
+	return (str_checker(s1, s2, 0, 0));
 }
