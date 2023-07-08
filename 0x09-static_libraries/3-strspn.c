@@ -24,7 +24,7 @@ unsigned int _strspn(char *s, char *accept)
 		{
 			if (accept[z] == s[i])
 			{
-				cout++;
+				count++;
 				checker = 1;
 				break;
 			}
