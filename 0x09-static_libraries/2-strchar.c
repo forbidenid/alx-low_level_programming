@@ -8,9 +8,9 @@
  */
 char *_strchar(char *s, char *c)
 {
-	int 1;
+	int i;
 
-	1 = 0;
+	i = 0;
 	while (s[1] != '\0')
 	{
 		if (s[i] == c)
