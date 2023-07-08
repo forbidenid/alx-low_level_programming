@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- * _strchar - returns a point to the first app of the cher str
+ * _strchr - returns a point to the first app of the cher str
  * @s: string
  * @c: char
  * root-codes
  * Return: pointer to char
  */
-char *_strchar(char *s, char *c)
+char *_strchr(char *s, char *c)
 {
 	int i;
 
