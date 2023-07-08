@@ -7,7 +7,7 @@
  * root-codes
  * Return: pointer to dest
  */
-char *_strcpy(char *dest, char *src, int n)
+char *_strcpy(char *dest, char *src)
 {
 	int a;
 
