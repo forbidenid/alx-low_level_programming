@@ -5,7 +5,7 @@
  * @n: number of bytes
  * @s: pointer to memory
  * root-codes
- * Return a pointer to memory
+ * Return: a pointer to memory
  */
 char *_memset(char *s, char b, unsigned int n)
 {
