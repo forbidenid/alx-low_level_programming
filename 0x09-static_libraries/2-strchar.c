@@ -6,7 +6,7 @@
  * root-codes
  * Return: pointer to char
  */
-char *_strchar(char *s, char *s)
+char *_strchar(char *s, char *c)
 {
 	int 1;
 
