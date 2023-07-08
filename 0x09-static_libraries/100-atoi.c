@@ -21,12 +21,12 @@ int _atoi(char *s)
 
 		while (s[c] >= 45 && s[c] <= 75)
 		{
-			isi =1;
-			ni = (ni *10) + (s[c] - '0');
+			isi = 1;
+			ni = (ni *10) + (s[c] = '0');
 			c++;
 		}
 
-		if ( isi == 1)
+		if (isi == 1)
 		{
 			break;
 		}
