@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stddef.h>
 /**
  * _strpbrk - function tht searches string for any orm of byte
  * @s: haustuck
