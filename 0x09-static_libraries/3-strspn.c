@@ -15,7 +15,8 @@ unsigned int _strspn(char *s, char *accept)
 	z = 0;
 	count = 0;
 	checker = 0;
-	while (s[i] ! = '\0')
+
+	while (s[i] != '\0')
 	{
 		z = 0;
 		checker = 0;
@@ -30,7 +31,7 @@ unsigned int _strspn(char *s, char *accept)
 			z++;
 		}
 		if (checker == 0)
-			return(count);
+			return (count);
 		i++;
 	}
 	return (count);

@@ -11,9 +11,9 @@ char *_strpbrk(char *s, char *accept)
 	unsigned int i, z;
 	 i = 0;
 	 z = 1;
-	 while (s[i] != '\0')
-	 {
-	 	z = 0;
+	while (s[i] != '\0')
+	{
+		z = 0;
 		while (accept[z] != '\0')
 		{
 			if (s[i] == accept[z])
@@ -21,6 +21,6 @@ char *_strpbrk(char *s, char *accept)
 			z++;
 		}
 		i++;
-	 }
-	 return (NULL);
+	}
+	return (NULL);
 }
