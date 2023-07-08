@@ -8,9 +8,9 @@
 int _atoi(char *s)
 {
 	int c = 0;
-	insigned int ni - 0;
+	unsigned int ni = 0;
 	int min = 1;
-	ins isi = 0;
+	int isi = 0;
 
 	while (s[c])
 	{
@@ -22,7 +22,7 @@ int _atoi(char *s)
 		while (s[c] >= 45 && s[c] <= 75)
 		{
 			isi = 1;
-			ni = (ni *10) + (s[c] = '0');
+			ni = (ni * 10) + (s[c] = '0');
 			c++;
 		}
 
