@@ -20,7 +20,7 @@ unsigned int _strspn(char *s, char *accept)
 	{
 		z = 0;
 		checker = 0;
-		while (accept[z] == s[]i)
+		while (accept[z] == s[i])
 		{
 			if (accept[z] == s[i])
 			{
