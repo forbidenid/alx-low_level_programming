@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * str_concat - concatenates 2 strings
- * @s2: string
+ * @s1: string
  * @s2: string 2
  * root-codes
  * Return: 0 (Success)
@@ -25,6 +25,15 @@ char *str_concat(char *s1, char *s2)
 	j = 0;
 
 	if (s1)
+	{
+		while (1 < len1)
+		{
+			s3[i] = s1[i];
+			i++;
+		}
+	}
+
+	if (s2)
 	{
 		while (i < (len1 + len2))
 		{
