@@ -65,14 +65,15 @@ int give_change(int money)
 		five = money / 5;
 		money -= five * 5;
 	}
+
 	if (money < 5 && money >= 2)
+	{
 		two = money / 2;
 		money -= two * 2;
+	}
 	if (money < 2)
 		one = money;
 
 	sum = tf + ten + five + two + one;
 	return (sum);
 }
-
-
