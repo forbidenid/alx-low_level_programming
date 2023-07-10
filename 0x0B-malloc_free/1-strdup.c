@@ -6,7 +6,7 @@
  * root-codes
  * Return: pointer to copied string
  */
-char *_strdump(char *str)
+char *_strdup(char *str)
 {
 	char *dup;
 	unsigned int i, len;
