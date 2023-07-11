@@ -3,11 +3,10 @@
 /**
  * print_grid - prints a grid of integers
  * @grid: the addres of two dimensional grid
- * @width: width of the grid
  * root-codes
  * Return: 0 (Success)
  */
-void print_grid(int **grid, int width, int height)
+void print_grid(int **grid, int height)
 {
 	int i;
 
