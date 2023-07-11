@@ -3,6 +3,7 @@
 /**
  * free_grid - prints a grid of integers
  * @grid: the addres of two dimensional grid
+ * @height: height
  * root-codes
  * Return: 0 (Success)
  */
