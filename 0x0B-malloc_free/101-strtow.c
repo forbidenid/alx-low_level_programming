@@ -6,7 +6,7 @@
  * root-codes
  * Return: string
  */
-int count_word(cjar *s)
+int count_word(char *s)
 {
 	 int flag, c, w;
 	 flag = 0;
