@@ -1,12 +1,12 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * print_grid - prints a grid of integers
+ * free_grid - prints a grid of integers
  * @grid: the addres of two dimensional grid
  * root-codes
  * Return: 0 (Success)
  */
-void print_grid(int **grid, int height)
+void free_grid(int **grid, int height)
 {
 	int i;
 
