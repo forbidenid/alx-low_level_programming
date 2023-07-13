@@ -7,7 +7,7 @@
  * root-codes
  * Return: pointer to array
  */
-int *array_range(int min, nim max)
+int *array_range(int min, int max)
 {
 	int *ptr;
 	int i, size;
