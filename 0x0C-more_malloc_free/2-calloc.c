@@ -25,7 +25,7 @@ char *_memset(char *s, char b, unsigned int n)
  * root-codes
  * Return: pointer to memory
  */
-voud *_calloc(unsigned int nmemb, unsigned int size)
+void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	char *ptr;
 
