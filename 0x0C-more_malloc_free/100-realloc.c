@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdlib.h>
-#include <stdio.h>
 /**
  * _realloc - reallocates memory block using malloc
  * @ptr: pointer to the momory
