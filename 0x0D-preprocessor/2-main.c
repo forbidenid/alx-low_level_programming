@@ -1,13 +1,13 @@
 #include <stdlib.h>
 /**
  * main - the header file
- * char: charactert that 
  * root-codes
  * Return: 0 (Success)
  */
-int main()
+int main(void)
 {
-	char *filename = __FILE__;
+	char *filename =  __FILE__;
+
 	printf("%s\n", filename);
 	return (0);
 }
