@@ -4,6 +4,7 @@
  * print_dog - struct
  * @d: struct
  * root-codes
+ * Return: nill
  */
 void print_dog(struct dog *d)
 {
