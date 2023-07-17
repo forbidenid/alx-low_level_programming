@@ -1,4 +1,4 @@
-#include <stdlib.h>
+#include <stdio.h>
 /**
  * main - the header file
  * root-codes
@@ -6,6 +6,7 @@
  */
 int main(void)
 {
-	printf("%s\n", __FILE__);
+	char *filename = __FILE__;
+	printf("%s\n", filename);
 	return (0);
 }
