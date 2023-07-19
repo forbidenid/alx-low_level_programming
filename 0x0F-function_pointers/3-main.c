@@ -7,36 +7,43 @@
  * main - entry point
  * the given operator.
  * @argc: agruments
- * @argv: value of the arguments.
- *
- * Return: 0 (Sucess)
+ * @argv: value of the
+ * Retutn: Success
  */
 int main(int argc, char *argv[])
 {
-	int a_int, b_int, result;
-	char *op;
+	int arg1, arg2, result;
+	char o;
+	int (*func)(int, int);
 
 	if (argc != 4)
 	{
 		printf("Error\n");
 		exit(98);
 	}
-	a_int = atoi(argv[1]);
-	b_int = atoi(argv[3]);
-	op = argv[2];
-	if ((ARGV(2, '/') || ARGV(2, '%')) && b_int == 0)
-	{
-		printf("Error\n");
-		exit(100);
-	}
-	if (!(get_op_func(op)))
+
+	arg1 = atoi(argv[1]);
+	arg2 = atoi(argv[3]);
+
+	func = get_op_func(argv[2]);
+
+	if (!func)
 	{
 		printf("Error\n");
 		exit(99);
 	}
-	result = (get_op_func(op))(a_int, b_int);
+
+	o = *argv[2];
+
+	if ((o == '/' || o == '%') && arg2 == 0)
+	{
+		printf("Error\n");
+		exit(100);
+	}
+
+	result = func(arg1, arg2);
+
 	printf("%d\n", result);
 
 	return (0);
 }
-
