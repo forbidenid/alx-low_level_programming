@@ -1,11 +1,11 @@
 #include "3-calc.h"
 
 /**
- * op_add - runs a addition calculation on a and b;
- * @a: int value.
- * @b: int value.
+ * op_add - sum of two integers
+ * @a: integer
+ * @b: integer
  *
- * Return: Resault of math operation.
+ * Return: sum of a and b
  */
 int op_add(int a, int b)
 {
@@ -13,11 +13,11 @@ int op_add(int a, int b)
 }
 
 /**
- * op_sub - runs a subtraction calculation on a and b;
- * @a: int value.
- * @b: int value.
+ * op_sub -  difference of two integers
+ * @a:  integer
+ * @b: integer
  *
- * Return: Resault of math operation.
+ * Return: a and b
  */
 int op_sub(int a, int b)
 {
@@ -25,11 +25,11 @@ int op_sub(int a, int b)
 }
 
 /**
- * op_mul - runs a multiplication calculation on a and b;
- * @a: int value.
- * @b: int value.
+ * op_mul - the product of two integers
+ * @a: integer
+ * @b: integer
  *
- * Return: Resault of math operation.
+ * Return: product of a and b
  */
 int op_mul(int a, int b)
 {
@@ -37,11 +37,10 @@ int op_mul(int a, int b)
 }
 
 /**
- * op_div - runs a division calculation on a and b;
- * @a: int value.
- * @b: int value.
- *
- * Return: Resault of math operation.
+ * op_div - division of two integers
+ * @a: integer
+ * @b: integer
+ * Return:  a and b
  */
 int op_div(int a, int b)
 {
@@ -49,11 +48,11 @@ int op_div(int a, int b)
 }
 
 /**
- * op_mod - runs a moldules calculation on a and b;
- * @a: int value.
- * @b: int value.
+ * op_mod - divide two integers
+ * @a: fi
+ * @b: sec
  *
- * Return: Resault of math operation.
+ * Return: rem a divided b
  */
 int op_mod(int a, int b)
 {
