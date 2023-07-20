@@ -8,7 +8,7 @@
  * the given operator.
  * @argc: agruments
  * @argv: value of the
- * Retutn: Success
+ * Rerutn: Success
  */
 int main(int argc, char *argv[])
 {
