@@ -4,7 +4,7 @@
 #include <stdlib.h>
 /**
  * print_all -  prints anything.
- * @firmat: a list of types of arguments passed to the function
+ * @format: a list of types of arguments passed to the function
  * root-codes
  */
 void print_all(const char * const format, ...)
