@@ -4,7 +4,7 @@
 
 #define ARGV(X, S) (argv[X][0] == S)
 /**
- * main - entry point
+ * main - entry point for the project
  * the given operator.
  * @argc: agruments
  * @argv: value of the
