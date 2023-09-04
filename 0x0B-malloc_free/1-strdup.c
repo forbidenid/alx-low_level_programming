@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * _strdup - coopies a string as parameter
- * @str: string
+ * @str: string main
  * root-codes
  * Return: pointer to copied string
  */

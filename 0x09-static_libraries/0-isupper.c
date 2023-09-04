@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _isupper - upercase letters
- * @c: character to check
+ * @c: the character to check
  * root-codes
  * Return: 0 , 1
  */
