@@ -4,7 +4,7 @@
  * argstostr - concatenates all arguments of the progran
  * @ac: argument
  * @av: pointer
- * root-codes
+ * payload
  * Return: NULL
  */
 char *argstostr(int ac, char **av)

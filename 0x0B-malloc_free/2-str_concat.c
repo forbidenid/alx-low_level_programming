@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * str_concat - concatenates 2 strings
- * @s1: string
+ * @s1: string one
  * @s2: string 2
  * root-codes
  * Return: 0 (Success)

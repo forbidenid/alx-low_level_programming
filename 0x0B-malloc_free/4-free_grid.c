@@ -4,7 +4,7 @@
  * free_grid - prints a grid of integers
  * @grid: the addres of two dimensional grid
  * @height: height
- * root-codes
+ * 14payload
  * Return: 0 (Success)
  */
 void free_grid(int **grid, int height)

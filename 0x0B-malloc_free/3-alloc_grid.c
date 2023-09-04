@@ -2,9 +2,9 @@
 #include <stdlib.h>
 /**
  * alloc_grid - 2d array of integer
- * @width: bredth
+ * @width: bredth of
  * @height: height
- * root-codes
+ * 14payload
  * Return: 0 (Success)
  */
 int **alloc_grid(int width, int height)
