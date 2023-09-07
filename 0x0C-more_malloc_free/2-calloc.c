@@ -5,7 +5,7 @@
  * @s: area
  * @b: char
  * @n: number copied
- * root-codes
+ * payload
  * Return: pointer to mem
  */
 char *_memset(char *s, char b, unsigned int n)

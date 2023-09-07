@@ -3,7 +3,7 @@
 /**
  * _realloc - reallocates memory block using malloc
  * @ptr: pointer to the momory
- * @old_size: size of the allocated space
+ * @old_size: size of the allocated spae
  * @new_size: pointer to allocate new size memory
  * Return: pointer to the new block
  */
